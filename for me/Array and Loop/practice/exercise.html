@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // practise question : 1
+    // let arr = [5,6];
+    // arr.push(7);
+    // arr.unshift(4);
+    // console.log(arr);
+//---------------------------------------------------->>>
+ // practise question : 2
+
+//   function getElement(arr,position){
+//     return arr[position - 1]; }
+//   let arr=[1,2,3,4,5,6,7,8,9];
+//   console.log(getElement(arr,5));
+//---------------------------------------------------->>>
+// practise question : 3
+
+// function arrayCopy(arr){
+//   return arr.slice(0,arr.length);
+// }
+
+// let arr= [1,2,3,4,5,6,7,8];
+// let arr2 = arrayCopy(arr);
+// console.log(arr);
+// console.log(arr);
+
+//------------------------------------------------->>>
+
+function isPrime(num){
+  for(let i = 2;i<num;i++){
+    if(num % i === 0){
+      return false;
+    }
+  }
+  return true;
+}
+
+let num = 2;
+let i = 0;
+while(i<10){
+  if(isPrime(num)){
+    console.log(num);
+    i++;
+  }
+  num++;
+}
+
+
+
+</script>
+</body>
+</html>
